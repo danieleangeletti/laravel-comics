@@ -10,6 +10,32 @@
     background-size: cover;
 }
 
+// MAIN
+.main-one-bg {
+    background-color: #1c1c1c;
+}
+.main-two-bg {
+    background-color: #0082f9;
+}
+.width-a-sixth {
+    width: calc((70vw / 6) - 32px);
+}
+.height-a-sixth {
+    height: calc((70vw / 6) - 32px);
+}
+.absolute {
+    position: absolute;
+    top: calc(-31.5px / 2);
+}
+.margin-cards {
+    margin: 0 16px;
+}
+.main-two-height {
+    height: 15vh;
+}
+.h-40 {
+    height: 40%;
+}
 // FOOTER
 .footer-one-height {
     height: 46vh;
@@ -36,8 +62,14 @@
 .mb-16 {
     margin-bottom: 16px;
 }
+.mb-32 {
+    margin-bottom: 32px;
+}
 .ps-8 {
     padding-left: 8px;
+}
+.ps-16 {
+    padding-left: 16px;
 }
 .pt-8 {
     padding-top: 8px;
@@ -47,6 +79,9 @@
 }
 .pe-8 {
     padding-right: 8px;
+}
+.pe-16 {
+    padding-right: 16px;
 }
 .pt-24 {
     padding-top: 24px;
