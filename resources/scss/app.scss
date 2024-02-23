@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
+// HEADER
 .nav-height {
     height: 12vh;
   }
@@ -7,4 +8,81 @@
     height: 46vh;
     background-image: url('../img/jumbotron.jpg');
     background-size: cover;
+}
+
+// FOOTER
+.footer-one-height {
+    height: 46vh;
+}
+.footer-one-bg {
+    background-image: url('../img/footer-bg.jpg');
+}
+.my-container {
+    width: 70vw;
+    height: 100%;
+}
+.col-footer-width {
+    width: calc(100% / 5.8);
+}
+.white {
+    color: white;
+}
+.mb-2 {
+    margin-bottom: 2px;
+}
+.mb-8 {
+    margin-bottom: 8px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.ps-8 {
+    padding-left: 8px;
+}
+.pt-8 {
+    padding-top: 8px;
+}
+.pb-8 {
+    padding-bottom: 8px;
+}
+.pe-8 {
+    padding-right: 8px;
+}
+.pt-24 {
+    padding-top: 24px;
+}
+.pb-24 {
+    padding-bottom: 24px;
+}
+.no-decoration {
+    list-style: none;
+}
+.no-underlining {
+    text-decoration: none;
+}
+.footer-grey {
+    color: #797758;
+}
+.smaller-plus {
+    font-size: 0.9em;
+}
+.grow-one {
+    flex-grow: 1;
+}
+.dc-logo-bg {
+    background-image: url("../img/dc-logo-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.footer-two-height {
+    height: 12vh;
+}
+.footer-two-bg {
+    background-color: #303030;
+}
+.border-botton-color {
+    border: 3px solid #0084fd;
+}
+.footer-blu {
+    color: #0084fd;
 }
