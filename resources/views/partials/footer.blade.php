@@ -89,17 +89,17 @@ $sites = [
         <div class="h-100 d-flex">
           <div class="col-footer-width white pt-24 pb-24">
             <div class="mb-8">DC COMICS</div>
-            <ul class="no-decoration mb-16">
+            <ul class="no-decoration mb-16 p-0">
             @foreach ($dc_comics as $elem)
-                <li class="mb-2">
+                <li>
                     <a class="no-underlining footer-grey smaller-plus" href="">{{$elem['link']}}</a>
                 </li>
             @endforeach
             </ul>
             <div class="mb-8">SHOP</div>
-            <ul class="no-decoration">
+            <ul class="no-decoration p-0">
               @foreach ($shop as $elem)
-                <li class="mb-2">
+                <li>
                     <a class="no-underlining footer-grey smaller-plus" href="">{{$elem['link']}}</a>
                 </li>
             @endforeach
@@ -107,9 +107,9 @@ $sites = [
           </div>
           <div class="col-footer-width white pt-24 pb-24">
             <div class="mb-8">DC</div>
-            <ul class="no-decoration">
+            <ul class="no-decoration p-0">
               @foreach ($dc as $elem)
-                <li class="mb-2">
+                <li>
                     <a class="no-underlining footer-grey smaller-plus" href="">{{$elem['link']}}</a>
                 </li>
             @endforeach
@@ -117,9 +117,9 @@ $sites = [
           </div>
           <div class="col-footer-width white pt-24 pb-24">
             <div class="mb-8">SITES</div>
-            <ul class="no-decoration">
+            <ul class="no-decoration p-0">
               @foreach ($sites as $elem)
-                <li class="mb-2">
+                <li>
                     <a class="no-underlining footer-grey smaller-plus" href="">{{$elem['link']}}</a>
                 </li>
             @endforeach
@@ -143,19 +143,19 @@ $sites = [
         </div>
         <div class="h-100 d-flex align-items-center">
           <div class="footer-blu ps-8 pe-8">FOLLOW US</div>
-          <div class="ps-4 pe-4">
+          <div class="ps-2 pe-2">
             <a href=""><img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="" /></a>
           </div>
-          <div class="ps-4 pe-4">
+          <div class="ps-2 pe-2">
             <a href=""><img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="" /></a>
           </div>
-          <div class="ps-4 pe-4">
+          <div class="ps-2 pe-2">
             <a href=""><img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="" /></a>
           </div>
-          <div class="ps-4 pe-4">
+          <div class="ps-2 pe-2">
             <a href=""><img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="" /></a>
           </div>
-          <div class="ps-4 pe-4">
+          <div class="ps-2 pe-2">
             <a href=""><img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="" /></a>
           </div>
         </div>

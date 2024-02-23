@@ -44,7 +44,7 @@
         <div class="h-100 d-flex align-items-center">
         @foreach ($nav as $elem)
             <div class="h-100 d-flex align-items-center ps-2 pe-2">
-                {{$elem['name']}}
+                <a class="no-underlining black" href="">{{$elem['name']}}</a>
             </div>
         @endforeach
           </div>
