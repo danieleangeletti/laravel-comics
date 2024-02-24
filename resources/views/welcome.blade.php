@@ -65,7 +65,7 @@
                         <div class="h-40 grow-one smaller-plus">
                             <div class="h-100 d-flex justify-content-center align-items-center">
                                 <img class="h-100 ps-8 pe-8" src="{{Vite::asset($elem['img_path'])}}" alt="" />
-                                <div class="white">{{ $elem['title'] }}</div>
+                                <div class="white"><a href="" class="no-underlining white">{{ $elem['title'] }}</a></div>
                             </div>
                         </div>
                     @endforeach
