@@ -49,7 +49,7 @@
                 </div>
             @else
                 <div class="h-100 d-flex align-items-center ps-2 pe-2">
-                    <a class="no-underlining black" href="">{{$elem['name']}}</a>
+                    <a class="no-underlining black" href="/">{{$elem['name']}}</a>
                 </div>
             @endif
         @endforeach
