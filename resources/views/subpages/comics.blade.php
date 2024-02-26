@@ -61,8 +61,35 @@
                     </div>
                     <div class="col-6">
                         <h5>
-                            Specs
+                            Spec
                         </h5>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6">
+                                Series:
+                            </div>
+                            <div class="col-6">
+                                ACTION COMICS
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6">
+                                U.S. Price:
+                            </div>
+                            <div class="col-6">
+                                $19.99
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6">
+                                On Sale Date:
+                            </div>
+                            <div class="col-6">
+                                Oct 02 2018
+                            </div>
+                        </div>
                         <hr>
                     </div>
                 </div>
